@@ -540,21 +540,16 @@ footer p {
 }
 
 /* RESPONSIVE ------------------*/
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
+  body{
+    offset: none;
+  }
   .header {
     width: 100%;
     position: relative;
     height: 100%;
     display: flex;
   }
-  /* .menu {
-    display: flex;
-    position: absolute;
-    top: 30px;
-    left: 10px;
-    z-index: 55;
-    font-size: 30px;
-  } */
   nav{
     display: flex;
     gap: 5rem;
@@ -596,9 +591,6 @@ footer p {
   .main .pic {
     width: 350px;
   }
-  /* .about .waste{
-    
-  } */
   .about .waste img {
     width: 150px;
     height: 90%;
@@ -649,10 +641,6 @@ footer p {
   .title-qual #not{
     font-size: 1rem;
   }
-  /* #quali .tion .teamwan .group,
-  #quali .tion .teamto .group{
-    font-size: 10px;
-  } */
   #quali .tion p{
     font-size: 1rem;
   }
@@ -679,3 +667,9 @@ footer p {
     font-size: 1rem;
   }
 }
+
+/* @media screen and (max-width: 576px){
+  #head{
+
+  }
+} */
